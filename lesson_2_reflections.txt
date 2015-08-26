@@ -4,4 +4,13 @@ What happens when you initialize a repository? Why do you need to do it?
     config file, description file, a file that points to the current HEAD, and a bunch folders 
     containing files that Git needs for operation.
 
-    We need to initialize a repository in this way (or via the GitHub Desktop, or in other ways still) to begin using Git to track and store changes (commits) to all the files in this repository.
+    We need to initialize a repository in this way (or via the GitHub Desktop, or in other ways 
+    still) to begin using Git to track and store changes (commits) to all the files in this 
+    repository.
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    The staging area offers me a place to gather files I wish to commit to the repository, which is useful since there could be a bunch of stuff in my working directory that I never intend to commit as part of the project, like local configuration files or raw and half-edited image files.
+

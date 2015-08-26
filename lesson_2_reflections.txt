@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    Within the folder that you run 'init' from, Git creates a new hidden called '.git' containing a 
+    config file, description file, a file that points to the current HEAD, and a bunch folders 
+    containing files that Git needs for operation.
+
+    We need to initialize a repository in this way (or via the GitHub Desktop, or in other ways still) to begin using Git to track and store changes (commits) to all the files in this repository.

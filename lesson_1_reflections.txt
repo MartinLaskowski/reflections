@@ -1,0 +1,59 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    'diff' shows only lines that had changed, shortening the search.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer 
+in the long term?
+
+    It makes bug spotting MUCH easier thereby making development clearer and faster.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do 
+in Git, vs having versions automatically saved, like Google docs does?
+
+    Pros of Git: We make changes to our code in pursuit of logical ends, so it serves us to save 
+    these changes as we reach these desired logical ends, not simply with every incremental 
+    alteration made to the code (as in Docs).
+
+    Cons of Git: If we don't save often (and our IDE's don't do so automatically) then we risk 
+    losing changes we've made in-between commits. Also, on Git, we get to decide what constitutes 
+    a commit-worthy change, and this means we have a responsibility to decide this wisely.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A piece of software is often comprised of multiple files which have functional 
+    interdependencies among one another other, such as a CSS file and an HTML file that together 
+    determine the content and appearance of a web page. 
+
+    Making a single logical change to a software project can therefore entail making changes to 
+    multiple files. While Docs allows us to track changes to individual files, version control 
+    systems like Git enable us to group any number of changes to multiple separate files as a 
+    single 'commit' representing a logical change to our software project.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    'Log' lists commits over time and their details, including SHA, author and date made.
+    'Diff' enables a detailed comparison of two commits, including lines added, changed and deleted 
+    across all files affected.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+    Being able to checkout the entire project just as it was at the time of any earlier commit makes me
+    confident that no matter what I break I can always roll back to a working version of the 
+    entire project :) 
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For every software project I work on (first off, Android apps!) and perhaps even a non-code
+    project like a book!

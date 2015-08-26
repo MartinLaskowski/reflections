@@ -34,4 +34,10 @@ branches help?
 
     For creating new features that we're not yet sure we want to include in the main project. For 
     allowing dev collaboration without risking the intergity of the initial code base. For 
-    experimentation and destructive testing.  
+    experimentation and destructive testing.
+
+
+
+How do the diagrams help you visualize the branch structure?
+    
+    By manifesting branching change hierarchies.

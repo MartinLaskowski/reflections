@@ -52,4 +52,14 @@ we do?
     branch B. We represent this visually as the closing a loop, the arms of which are the two 
     branches and newest node unifying the two branches. This is accurate as now the two codebases 
     have become one, although each commit along each branch is still accessible, and all commits 
-    from both branches show up in the commit lig, chronologically. 
+    from both branches show up in the commit lig, chronologically.
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Pros: Time! Git merges straighforward code instantly and without erros humans could make in 
+    translation
+    Cons: Developer orientation can suffer if newly merged code looks substantially different 
+    after many changes have been incorporated. Also, Git can identify and present many change 
+    conflicts to developers by Git to be manually resolved.

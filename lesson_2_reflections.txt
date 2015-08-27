@@ -41,3 +41,15 @@ branches help?
 How do the diagrams help you visualize the branch structure?
     
     By manifesting branching change hierarchies.
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way 
+we do?
+
+    Merging incorporates all changes made across both branches into one unified codebase. The 
+    resulting commit now has two parents - the last commit of branch A and the last commit of 
+    branch B. We represent this visually as the closing a loop, the arms of which are the two 
+    branches and newest node unifying the two branches. This is accurate as now the two codebases 
+    have become one, although each commit along each branch is still accessible, and all commits 
+    from both branches show up in the commit lig, chronologically. 

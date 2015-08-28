@@ -39,6 +39,8 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be 
 harder?
 
-	How: Using older generation VCS like Mercurial. 
-	Easier: Burden of understanding online collaboration workflows would be elliminated. 
-	Harder: Workflow wouldn't offer easy state regression/progression with online collaborators. 
+	How: By using an older generation, non-online-collaborative VCS like Mercurial. 
+	Easier: Burden of understanding and using online collaboration workflows (e.g. pull-requests) 
+	would be elliminated. 
+	Harder: We couldn't easily communicate and gate proposed changes to our state chain with online 
+	collaborators.  

@@ -26,3 +26,19 @@ another?
 	Forks are clones that are made on GitHub (online) and act the same as offline clone, except that 
 	attribution for the original codebase is always given to the original developers/project 
 	maintainers.
+
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	We can work offline and still merge to and from other branches in the codebase, as they where when 
+	the last remote sync occured.
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be 
+harder?
+
+	How: Using older generation VCS like Mercurial. 
+	Easier: Burden of understanding online collaboration workflows would be elliminated. 
+	Harder: Workflow wouldn't offer easy state regression/progression with online collaborators. 

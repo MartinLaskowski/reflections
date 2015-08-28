@@ -43,4 +43,16 @@ harder?
 	Easier: Burden of understanding and using online collaboration workflows (e.g. pull-requests) 
 	would be elliminated. 
 	Harder: We couldn't easily communicate and gate proposed changes to our state chain with online 
-	collaborators.  
+	collaborators.
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What 
+benefits does each approach have?
+
+	Branch: Maintains master's integrity and allows its maintainers to gate and review new proposed	
+	changes. Useful on projects that always need a stable version, usually larger projects with 
+	multiple stakeholders.
+
+	Master: Removes collaboration/communication overhead but also makes development intent less 
+	visible. Useful when making small, necessary changes on non-critical, non-collaborative projects.
